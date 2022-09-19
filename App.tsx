@@ -10,7 +10,7 @@ export default function App() {
   return (
     <SafeAreaView>
       <StatusBar/>
-      <Servicos />
+      <Servicos />a
     </SafeAreaView>
   );
 }
