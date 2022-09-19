@@ -1,7 +1,10 @@
 import React from "react";
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
 
-import Servicos from './src/telas/Servicos/Item';
+import Servicos from './src/telas/Servicos/index';
 import { SafeAreaView, StatusBar } from "react-native";
+
 
 export default function App() {
   return (

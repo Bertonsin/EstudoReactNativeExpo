@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, FlatList, SafeAreaView, StatusBar } from "react-native";
-import Item from "./Item";
+import { FlatList, SafeAreaView, StatusBar } from "react-native";
+import Item from "./Item/index";
 
 const servicos = [
     {
@@ -26,7 +26,6 @@ const servicos = [
 export default function Servicos() :JSX.Element {
     return <SafeAreaView>
         <StatusBar />
-        <Text>Serviços</Text>
         <FlatList 
         data={servicos}
         renderItem={({item}) => <Item {...item} />}
