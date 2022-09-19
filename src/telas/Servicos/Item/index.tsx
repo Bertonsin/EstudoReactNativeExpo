@@ -21,7 +21,7 @@ export default function Item({nome, preco, descricao} :{nome: string, preco:numb
     }
 
     const inverteExpandir = (() => {
-        (setExpandir(!expandir))
+        setExpandir(!expandir);
         atualizaQuantidadeTotal(1);
     })
 
