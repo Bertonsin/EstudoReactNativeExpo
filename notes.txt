@@ -46,6 +46,13 @@ a seguinte linha verifica se expandir é true, se for ele verifica se os itens a
 Para os states usamos o hook useState, e para as funções de ciclo usamos o useEffect
 
 
+Aula 3 -
+
+KeyboardAvoiding view - para subir o teclado e não ficar na frente do input
+
+Platform - para saber se é android ou IOS e fazer as alterações específicas pra cada
+
+
 Aula 4 -
 
 Para a troca de telas é recomendado usar a biblioteca react-navigation
