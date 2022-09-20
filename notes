@@ -1,3 +1,52 @@
+Aula 1 -
+
+
+App.tsx - Contem um componente app que ir´expor na tela o conteúdo
+
+No app.json da pra alterar o icone e splash screen
+
+slug - como a aplicação vai ser vista por baixo dos panos
+
+Salvar para caso precise: 
+
+,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+
+
+Aula 2 -
+
+export default só pode ser usado uma vez por arquivo
+
+o export pode ser usado maisvezes em um mesmo arquivo
+
+O react native tem um componente voltado à utilização de listas mais otimizadas, carregando os itens em partes - Esse componente é o FlatList
+
+Para usar variaveis se usa {} e coloca-se ela dentro
+
+Text input é para usar o input
+
+useState: recebe um valor, e um método que altera o valor
+
+const [valor, mudaValor] = useState(1)
+
+intl é uma biblioteca para questões monetárias do js
+
+a seguinte linha verifica se expandir é true, se for ele verifica se os itens appós ele também são, se sim ele executa: {expandir &&
+  view
+}
+
+Para os states usamos o hook useState, e para as funções de ciclo usamos o useEffect
+
+
+
 Aula 3 -
 
 KeyboardAvoiding view - para subir o teclado e não ficar na frente do input
