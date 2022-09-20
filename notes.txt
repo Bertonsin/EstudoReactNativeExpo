@@ -20,7 +20,7 @@ Salvar para caso precise:
       "favicon": "./assets/favicon.png"
     }
 
-
+git 
 Aula 2 -
 
 export default só pode ser usado uma vez por arquivo
@@ -46,9 +46,20 @@ a seguinte linha verifica se expandir é true, se for ele verifica se os itens a
 Para os states usamos o hook useState, e para as funções de ciclo usamos o useEffect
 
 
+Aula 4 -
 
-Aula 3 -
+Para a troca de telas é recomendado usar a biblioteca react-navigation
+Nesse projeto foi usado o tab-navigation do react navigation
 
-KeyboardAvoiding view - para subir o teclado e não ficar na frente do input
+Nele se usa a navegação por tabs, criando um container, um container para a tab e as telas dentro
 
-Platform - para saber se é android ou IOS e fazer as alterações específicas pra cada
+Usar o screenOptions para modificar a tabBar
+
+Para alterar o status bar no android, mude o backgroundColor na statusbar diretamente
+Para alterar o notch no IOS, coloque o estilo na safeAreaView, e também é preciso criar mais uma safeAreaView
+
+
+Aula 5 - 
+
+Um recurso útil para facilitar na parte de debug é o reactotron
+É preciso instalar ele na máquina e no projeto(usado apenas no ambiente dev, e não no de produção)
