@@ -29,13 +29,13 @@ const servicos = [
 ]
 
 export default function Carrinho() :JSX.Element {
-    const total =servicos.reduce((soma, {preco, quantidade})=> soma + (preco * quantidade),0)
+    const total = servicos.reduce((soma, {preco, quantidade})=> soma + (preco * quantidade),0)
 
-    return <TelaPadrao>
+    return <>
             <StatusCarrinho total={total} />
             <FlatList 
                 data={servicos}
                 renderItem={({item}) => <Item {...item} />}
                 keyExtractor={({id}) => String(id)}/>
-        </TelaPadrao>
+        </>
 }
